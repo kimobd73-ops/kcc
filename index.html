@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kimo's Computer Clinic</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Kimo's Computer Clinic - Computer repair & parts with a health-inspired approach.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="images/logo.png" alt="Kimo's Computer Clinic Logo" class="logo">
+      <div class="brand">
+        <h1>Kimo's Computer Clinic</h1>
+        <p class="tagline">Your PC’s Health, Our Priority</p>
+      </div>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+
+    <nav id="siteNav" class="site-nav">
+      <a href="#about">About</a>
+      <a href="#mission">Mission & Vision</a>
+      <a href="#management">Management</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" role="img" aria-label="Cover image">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h2>Computer Repair & Parts — with a Health Approach</h2>
+          <p>We diagnose, treat and prevent computer problems so your devices live a long, healthy life.</p>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>
+        At <strong>Kimo's Computer Clinic</strong>, we combine technical expertise with a care-first mindset.
+        Based in San Mateo, San Pablo City, Laguna, we provide professional computer repair, preventative maintenance,
+        and quality replacement parts — treating every machine like a patient that deserves attentive care.
+      </p>
+    </section>
+
+    <section id="mission" class="container">
+      <h2>Mission & Vision</h2>
+      <p><strong>Mission:</strong> Provide reliable, affordable, and health-focused computer repair services that
+         extend the life of devices and reduce electronic waste.</p>
+      <p><strong>Vision:</strong> To be the most trusted "clinic" for PCs in San Pablo City, known for expert repairs,
+         honest advice, and genuine care for customers' devices.</p>
+    </section>
+
+    <section id="management" class="container">
+      <h2>Management Team</h2>
+      <div class="cards">
+        <div class="card"><h3>Kim de Vera</h3><p>Owner</p></div>
+        <div class="card"><h3>Maria Coleen</h3><p>Cashier & Manager</p></div>
+        <div class="card"><h3>Flavi Emmanuel</h3><p>Technician</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Address:</strong><br>San Mateo, San Pablo City, Laguna</p>
+          <p><strong>Phone:</strong><br><a href="tel:+639459707013">0945-970-7013</a></p>
+          <p><strong>Email:</strong><br><a href="mailto:kimobd73@gmail.com">kimobd73@gmail.com</a></p>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            Your name
+            <input type="text" name="name" id="name" required>
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" id="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" id="message" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="left">
+        <img src="images/logo.png" alt="logo small" class="logo-small">
+        <div>&copy; <span id="year"></span> Kimo's Computer Clinic</div>
+      </div>
+      <div class="right">
+        <div>"Your PC’s Health, Our Priority"</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
