@@ -53,7 +53,7 @@ body{
 
 .hero{
   height:360px;
-  background-image:url('images/cover.jpg');
+  background-image:url('Images/cover.jpg');
   background-size:cover;
   background-position:center;
   display:flex;
